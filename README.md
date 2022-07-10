@@ -1,2 +1,2 @@
 # exercicioComMatrizes
-resolução de exercício com 4 matrizes
+resolução de exercícios do code tank Java
