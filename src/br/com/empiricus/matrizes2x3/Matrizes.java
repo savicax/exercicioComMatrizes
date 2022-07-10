@@ -25,7 +25,7 @@ public class Matrizes {
 		System.out.println("Matriz N1:");
 		for(int i = 0; i < matrizN1.length; i++) {
 			for(int j = 0; j < matrizN1[i].length; j++) {
-				System.out.print(matrizN1[i][j] + " / ");
+				System.out.print(matrizN1[i][j] + " | ");
 			}
 			System.out.println();
 		}
@@ -44,7 +44,7 @@ public class Matrizes {
 		System.out.println("Matriz N2:");
 		for(int i = 0; i < matrizN2.length; i++) {
 			for(int j = 0; j < matrizN2[i].length; j++) {
-				System.out.print(matrizN2[i][j] + " / ");
+				System.out.print(matrizN2[i][j] + " | ");
 			}
 			System.out.println();
 		}
@@ -62,7 +62,7 @@ public class Matrizes {
 		for(int i = 0; i < matrizN2.length; i++) {
 			for(int j = 0; j < matrizN2[i].length; j++) {
 				
-				System.out.print(matrizM1[i][j] + " / ");
+				System.out.print(matrizM1[i][j] + " | ");
 			}
 			System.out.println();
 		}
@@ -72,7 +72,7 @@ public class Matrizes {
 		System.out.println("Matriz M2 (N1 - N2):");
 		for(int i = 0; i < matrizM2.length; i++) {
 			for(int j = 0; j < matrizM2[i].length; j++) {			
-				System.out.print(matrizM2[i][j] + " / ");
+				System.out.print(matrizM2[i][j] + " | ");
 			}
 			System.out.println();
 		}
